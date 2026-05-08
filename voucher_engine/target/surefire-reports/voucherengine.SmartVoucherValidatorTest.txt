@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: voucherengine.SmartVoucherValidatorTest
+-------------------------------------------------------------------------------
+Tests run: 33, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.097 s <<< FAILURE! - in voucherengine.SmartVoucherValidatorTest
+testOddDigitSum  Time elapsed: 0.016 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at voucherengine.SmartVoucherValidatorTest.testOddDigitSum(SmartVoucherValidatorTest.java:94)
+
+testEvenDigitSum18  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at voucherengine.SmartVoucherValidatorTest.testEvenDigitSum18(SmartVoucherValidatorTest.java:153)
+
+testValidSpecialSymbols  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at voucherengine.SmartVoucherValidatorTest.testValidSpecialSymbols(SmartVoucherValidatorTest.java:128)
+

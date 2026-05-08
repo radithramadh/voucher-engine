@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="voucherengine.SmartVoucherValidatorTest" time="0.097" tests="33" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\voucher_engine\target\test-classes;C:\voucher_engine\target\classes;C:\Users\RADIT\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\RADIT\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\RADIT\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\RADIT\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\RADIT\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\RADIT\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Makassar"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\RADIT\AppData\Local\Temp\surefire13800652803536675739\surefirebooter1281731466722697990.jar C:\Users\RADIT\AppData\Local\Temp\surefire13800652803536675739 2026-05-08T11-00-05_371-jvmRun1 surefire11851639364850156088tmp surefire_012673164051363005000tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\voucher_engine\target\test-classes;C:\voucher_engine\target\classes;C:\Users\RADIT\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\RADIT\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\RADIT\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\RADIT\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\RADIT\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\RADIT\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\RADIT"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\voucher_engine"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\RADIT\AppData\Local\Temp\surefire13800652803536675739\surefirebooter1281731466722697990.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.8+9-LTS"/>
+    <property name="user.name" value="RADIT"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.8+9"/>
+    <property name="maven.ext.class.path" value="C:\Users\RADIT\.vscode\extensions\oracle.oracle-java-25.1.0\nbcode\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\RADIT\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\RADIT\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.8"/>
+    <property name="user.dir" value="C:\voucher_engine"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\RADIT\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\php-8.2.0;C:\Program Files\php-8.2.29;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;%SYSTEMROOT\System32\OpenSSH\;C:\Program Files\dotnet\;C:\WINDOWS\system32\WindowsPowerShell\v1.0\;C:\Program Files\cursor\resources\app\bin;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\apache-maven-3.9.6\bin;C:\Program Files\Java\jdk-21\bin;C:\Users\RADIT\AppData\Local\Microsoft\WindowsApps;C:\Users\RADIT\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;C:\Users\RADIT\AppData\Local\spicetify;C:\Users\RADIT\AppData\Local\Microsoft\WindowsApps;C:\Users\RADIT\AppData\Roaming\Composer\vendor\bin;C:\Users\RADIT\AppData\Roaming\npm;C:\Users\RADIT\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\RADIT\flutter\bin;C:\apache-maven-3.9.6\bin;C:\Program Files\Java\jdk-21\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.8+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testInvalidDateDay21" classname="voucherengine.SmartVoucherValidatorTest" time="0.028"/>
+  <testcase name="testInvalidDateDay31" classname="voucherengine.SmartVoucherValidatorTest" time="0.001"/>
+  <testcase name="testWrongLength" classname="voucherengine.SmartVoucherValidatorTest" time="0.001"/>
+  <testcase name="testEmptyVoucherCode" classname="voucherengine.SmartVoucherValidatorTest" time="0"/>
+  <testcase name="testWrongPrefix" classname="voucherengine.SmartVoucherValidatorTest" time="0"/>
+  <testcase name="testRequestWithNullCode" classname="voucherengine.SmartVoucherValidatorTest" time="0.003"/>
+  <testcase name="testRequestWithNullDate" classname="voucherengine.SmartVoucherValidatorTest" time="0.001"/>
+  <testcase name="testNullDate" classname="voucherengine.SmartVoucherValidatorTest" time="0.001"/>
+  <testcase name="testNullVoucherCode" classname="voucherengine.SmartVoucherValidatorTest" time="0.001"/>
+  <testcase name="testValidCodeWithInvalidDate" classname="voucherengine.SmartVoucherValidatorTest" time="0.001"/>
+  <testcase name="testOddDigitSum" classname="voucherengine.SmartVoucherValidatorTest" time="0.016">
+    <failure message="expected: &lt;false&gt; but was: &lt;true&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at voucherengine.SmartVoucherValidatorTest.testOddDigitSum(SmartVoucherValidatorTest.java:94)
+]]></failure>
+  </testcase>
+  <testcase name="testEvenDigitSum18" classname="voucherengine.SmartVoucherValidatorTest" time="0.002">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at voucherengine.SmartVoucherValidatorTest.testEvenDigitSum18(SmartVoucherValidatorTest.java:153)
+]]></failure>
+  </testcase>
+  <testcase name="testEvenDigitSum0" classname="voucherengine.SmartVoucherValidatorTest" time="0"/>
+  <testcase name="testEvenDigitSum2" classname="voucherengine.SmartVoucherValidatorTest" time="0.001"/>
+  <testcase name="testInvalidRequest" classname="voucherengine.SmartVoucherValidatorTest" time="0.001"/>
+  <testcase name="testValidCodeWithValidDate" classname="voucherengine.SmartVoucherValidatorTest" time="0.001"/>
+  <testcase name="testValidSpecialSymbols" classname="voucherengine.SmartVoucherValidatorTest" time="0.002">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at voucherengine.SmartVoucherValidatorTest.testValidSpecialSymbols(SmartVoucherValidatorTest.java:128)
+]]></failure>
+  </testcase>
+  <testcase name="testNonSpecialSymbols" classname="voucherengine.SmartVoucherValidatorTest" time="0.002"/>
+  <testcase name="testValidCodeFormat" classname="voucherengine.SmartVoucherValidatorTest" time="0.001"/>
+  <testcase name="testNullTransactionDate" classname="voucherengine.SmartVoucherValidatorTest" time="0.001"/>
+  <testcase name="testInvalidDateDay1" classname="voucherengine.SmartVoucherValidatorTest" time="0"/>
+  <testcase name="testInvalidDateDay9" classname="voucherengine.SmartVoucherValidatorTest" time="0"/>
+  <testcase name="testInvalidCodeWithValidDate" classname="voucherengine.SmartVoucherValidatorTest" time="0"/>
+  <testcase name="testOddDigitSum1" classname="voucherengine.SmartVoucherValidatorTest" time="0.001"/>
+  <testcase name="testNonNumericDigits" classname="voucherengine.SmartVoucherValidatorTest" time="0.001"/>
+  <testcase name="testValidRequest" classname="voucherengine.SmartVoucherValidatorTest" time="0.001"/>
+  <testcase name="testEndToEndWithBoundaryDates" classname="voucherengine.SmartVoucherValidatorTest" time="0.001"/>
+  <testcase name="testValidDateDay10" classname="voucherengine.SmartVoucherValidatorTest" time="0.001"/>
+  <testcase name="testValidDateDay15" classname="voucherengine.SmartVoucherValidatorTest" time="0.001"/>
+  <testcase name="testValidDateDay20" classname="voucherengine.SmartVoucherValidatorTest" time="0.001"/>
+  <testcase name="testValidDateRangeAnyMonth" classname="voucherengine.SmartVoucherValidatorTest" time="0.001"/>
+  <testcase name="testMultipleValidCodes" classname="voucherengine.SmartVoucherValidatorTest" time="0"/>
+  <testcase name="testNullRequest" classname="voucherengine.SmartVoucherValidatorTest" time="0"/>
+</testsuite>
